@@ -10,7 +10,7 @@
   <!-- Start Items -->
   {% for post in site.posts %}
   <item>
-    <title>{{ post.titlr | xml_escape }}</title>
+    <title>{{ post.title | xml_escape }}</title>
     <description>{{ post.excerpt | xml_escape }}</description>
     <link>{{ post.url | xml_escape }}</link>
   </item>
